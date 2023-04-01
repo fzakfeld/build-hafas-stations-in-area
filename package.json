@@ -1,0 +1,21 @@
+{
+  "name": "build-hafas-stations-in-area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@geo-maps/countries-coastline-500m": "^0.6.0",
+    "@geo-maps/countries-land-10km": "^0.6.0",
+    "@geo-maps/countries-land-1km": "^0.6.0",
+    "@turf/turf": "^6.5.0",
+    "geojson": "^0.5.0",
+    "hafas-client": "5.26.3",
+    "hafas-discover-stations": "^4.2.1",
+    "yargs": "^17.7.1"
+  },
+  "type": "module"
+}
