@@ -36,7 +36,8 @@ export function buildStationsFile(profile, name, countrycode, entrypoint) {
             name: data.name,
             location: data.location,
             weight: getWeight(data.products),
-          }) + "\n"
+          }) + "\n",
+          "utf8"
         );
       }
     })
